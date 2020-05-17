@@ -1,8 +1,9 @@
 :root {
     --primary-color: rgb(62, 84, 163);
     --secondary-color: rgb(237, 44, 73);
+    --accent-color: rgb(106, 190, 205);
     --light-blue: #E1EBEF;
-    --lang-html: rgb(106, 190, 205);
+    --lang-html: var(--accent-color);
     --lang-css: var(--primary-color);
     --lang-js: rgb(225, 55, 132);
     --difficulty-intermediate: rgb(253, 206, 129);
@@ -63,6 +64,11 @@ a {
 .button:hover,
 .button:focus {
     transform: scale(1.025);
+}
+
+.button:focus,
+.buttonactive {
+    outline: dotted var(--accent-color);
 }
 
 .container {
