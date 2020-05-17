@@ -14,7 +14,7 @@ const projects = [
       "In this challenge, you'll be using JavaScript to filter out jobs based on the categories selected.",
     languages: ['html', 'css', 'js'],
     url:
-      'https://filtered-job-listings-frontendmentor.aleksandrhovhannisyan.now.sh/',
+      'https://frontend-mentor-challenges.aleksandrhovhannisyan.now.sh/static-job-listings/',
     thumbnail: './static-job-listings/assets/design/desktop-preview.jpg',
   },
   {
@@ -23,7 +23,8 @@ const projects = [
     description:
       "This challenge will test your HTML, CSS and JavaScript skills. There's even a Rock, Paper, Scissors, Lizard, Spock version if you really want to challenge yourself.",
     languages: ['html', 'css', 'js'],
-    url: 'https://rock-paper-scissors.aleksandrhovhannisyan.now.sh/',
+    url:
+      'https://frontend-mentor-challenges.aleksandrhovhannisyan.now.sh/rock-paper-scissors/',
     thumbnail: './rock-paper-scissors/assets/design/desktop-preview.jpg',
   },
 ];
