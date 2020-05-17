@@ -6,7 +6,10 @@
     --lang-html: var(--accent-color);
     --lang-css: var(--primary-color);
     --lang-js: rgb(225, 55, 132);
+    --difficulty-newbie: rgb(90, 226, 169);
+    --difficulty-junior: rgb(170, 215, 66);
     --difficulty-intermediate: rgb(253, 206, 129);
+    --difficulty-advanced: rgb(255, 158, 122);
 }
 
 * {
@@ -205,12 +208,36 @@ a {
     letter-spacing: 1px;
 }
 
+.newbie {
+    color: var(--difficulty-newbie);
+}
+
+.newbie .highlighted {
+    background-color: var(--difficulty-newbie);
+}
+
+.junior {
+    color: var(--difficulty-junior);
+}
+
+.junior .highlighted {
+    background-color: var(--difficulty-junior);
+}
+
 .intermediate {
     color: var(--difficulty-intermediate);
 }
 
 .intermediate .highlighted {
     background-color: var(--difficulty-intermediate);
+}
+
+.advanced {
+    color: var(--difficulty-advanced);
+}
+
+.advanced .highlighted {
+    background-color: var(--difficulty-advanced);
 }
 
 .footer {
