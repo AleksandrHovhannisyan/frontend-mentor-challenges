@@ -212,3 +212,17 @@ a {
 .intermediate .highlighted {
     background-color: var(--difficulty-intermediate);
 }
+
+.footer {
+    background-color: rgb(21, 29, 58);
+    padding: 2em 1em;
+    text-align: center;
+}
+
+.footer * {
+    color: white;
+}
+
+.footer .underlined-link::after {
+    background-color: white;
+}
