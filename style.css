@@ -10,6 +10,7 @@
     --difficulty-junior: rgb(170, 215, 66);
     --difficulty-intermediate: rgb(253, 206, 129);
     --difficulty-advanced: rgb(255, 158, 122);
+    --thumbnail-height: 290px;
 }
 
 * {
@@ -126,10 +127,12 @@ a {
 
 .solution {
     overflow: hidden;
+    display: grid;
+    grid-template-rows: var(--thumbnail-height) 1fr;
 }
 
 .solution-header {
-    height: 290px;
+    height: var(--thumbnail-height);
     overflow: hidden;
 }
 
@@ -153,6 +156,8 @@ a {
 
 .solution-body {
     padding: 1em 2em;
+    display: grid;
+    grid-template-rows: 2em 1fr auto;
 }
 
 .languages-used {
