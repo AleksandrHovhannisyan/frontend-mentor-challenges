@@ -21,6 +21,7 @@
 
 .github-corner {
     position: fixed;
+    z-index: 1000;
     right: 0;
     width: 20px;
     height: 20px;
