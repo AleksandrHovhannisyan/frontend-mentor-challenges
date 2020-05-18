@@ -18,6 +18,13 @@
     padding: 0;
 }
 
+.github-corner {
+    position: fixed;
+    right: 0;
+    width: 20px;
+    height: 20px;
+}
+
 body {
     height: 100vh;
     font-family: Heebo, sans-serif;
@@ -252,4 +259,21 @@ a {
 
 .footer .underlined-link::after {
     background-color: white;
+}
+
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button-group .button {
+    flex: calc(50% - 0.8em);
+}
+
+.button-group .button {
+    margin-bottom: 0.8em;
+}
+
+.button-group .button:first-child {
+    margin-right: 0.8em;
 }

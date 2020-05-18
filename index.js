@@ -13,7 +13,9 @@ const projects = [
     description:
       "In this challenge, you'll be using JavaScript to filter out jobs based on the categories selected.",
     languages: ['html', 'css', 'js'],
-    url:
+    challengeURL:
+      'https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt',
+    solutionURL:
       'https://frontend-mentor-challenges.aleksandrhovhannisyan.now.sh/static-job-listings/',
     thumbnail: './static-job-listings/assets/design/desktop-preview.jpg',
   },
@@ -23,7 +25,9 @@ const projects = [
     description:
       "This challenge will test your HTML, CSS and JavaScript skills. There's even a Rock, Paper, Scissors, Lizard, Spock version if you really want to challenge yourself.",
     languages: ['html', 'css', 'js'],
-    url:
+    challengeURL:
+      'https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH',
+    solutionURL:
       'https://frontend-mentor-challenges.aleksandrhovhannisyan.now.sh/rock-paper-scissors/',
     thumbnail: './rock-paper-scissors/assets/design/desktop-preview.jpg',
   },
@@ -35,7 +39,7 @@ document.getElementById('solutions').innerHTML = projects
 
     return `<li class="card solution">
 <header class="solution-header">
-    <a href="${project.url}" class="solution-link" tabindex="-1">
+    <a href="${project.solutionURL}" class="solution-link" tabindex="-1">
         <img src="${project.thumbnail}" alt="Thumbnail for the ${
       project.title
     } challenge" class="solution-thumbnail" />
@@ -52,7 +56,7 @@ document.getElementById('solutions').innerHTML = projects
     </div>
     <div class="solution-about">
         <h3 class="solution-title"><a href="${
-          project.url
+          project.solutionURL
         }" class="solution-link" tabindex="-1">${project.title}</a></h3>
         <p class="solution-description">${project.description}</p>
     </div>
@@ -74,7 +78,14 @@ document.getElementById('solutions').innerHTML = projects
       project.difficulty.label
     }</p>
         </div>
-        <a href="${project.url}" class="button view-solution">VIEW SOLUTION</a>
+        <div class="button-group">
+          <a href="${
+            project.challengeURL
+          }" class="button" aria-label="View challenge">CHALLENGE</a>
+          <a href="${
+            project.solutionURL
+          }" class="button" aria-label="View solution">SOLUTION</a>
+        </div>
     </footer>
 </div>
 </li>`;
