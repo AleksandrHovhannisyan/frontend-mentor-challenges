@@ -163,6 +163,7 @@ a {
 
 .languages-used {
     display: flex;
+    list-style: none;
     margin-bottom: 1em;
 }
 

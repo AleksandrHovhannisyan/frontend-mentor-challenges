@@ -39,21 +39,21 @@ document.getElementById('solutions').innerHTML = projects
 
     return `<li class="card solution">
 <header class="solution-header">
-    <a href="${project.solutionURL}" class="solution-link" tabindex="-1">
-        <img src="${project.thumbnail}" alt="Thumbnail for the ${
-      project.title
-    } challenge" class="solution-thumbnail" />
+    <a href="${
+      project.solutionURL
+    }" class="solution-link" aria-hidden="true" tabindex="-1">
+        <img src="${project.thumbnail}" alt="" class="solution-thumbnail" />
     </a>
 </header>
 <div class="solution-body">
-    <div class="languages-used">
+    <ul class="languages-used">
         ${project.languages
           .map(
             (language) =>
-              `<div class="lang ${language}">${language.toUpperCase()}</div>`
+              `<li class="lang ${language}">${language.toUpperCase()}</li>`
           )
           .join('')}
-    </div>
+    </ul>
     <div class="solution-about">
         <h3 class="solution-title"><a href="${
           project.solutionURL
