@@ -15,8 +15,7 @@ const projects = [
     languages: ['html', 'css', 'js'],
     challengeURL:
       'https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt',
-    solutionURL:
-      'https://frontend-mentor-challenges.aleksandrhovhannisyan.now.sh/static-job-listings/',
+    solutionURL: './static-job-listings/',
     thumbnail: './static-job-listings/assets/design/desktop-preview.jpg',
   },
   {
@@ -27,8 +26,7 @@ const projects = [
     languages: ['html', 'css', 'js'],
     challengeURL:
       'https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH',
-    solutionURL:
-      'https://frontend-mentor-challenges.aleksandrhovhannisyan.now.sh/rock-paper-scissors/',
+    solutionURL: './rock-paper-scissors/',
     thumbnail: './rock-paper-scissors/assets/design/desktop-preview.jpg',
   },
 ];
