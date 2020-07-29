@@ -1,6 +1,6 @@
-[submodule "rock-paper-scissors"]
-	path = rock-paper-scissors
-	url = https://github.com/AleksandrHovhannisyan/rock-paper-scissors.git
 [submodule "static-job-listings"]
 	path = static-job-listings
 	url = https://github.com/AleksandrHovhannisyan/static-job-listings.git
+[submodule "rock-paper-scissors"]
+	path = rock-paper-scissors
+	url = https://github.com/AleksandrHovhannisyan/rock-paper-scissors.git
